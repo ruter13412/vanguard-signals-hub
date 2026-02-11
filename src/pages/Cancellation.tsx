@@ -18,7 +18,7 @@ export default function Cancellation() {
           <p>You can cancel your subscription at any time using any of the following methods:</p>
           <ul className="list-disc pl-5 space-y-2">
             <li><strong className="text-foreground">Subscriber Dashboard:</strong> Log in to your account and navigate to your subscription settings to cancel.</li>
-            <li><strong className="text-foreground">Email Support:</strong> Send a cancellation request to <strong className="text-foreground">support@vanguard-signals.xyz</strong>. Include your account email address.</li>
+            <li><strong className="text-foreground">Email Support:</strong> Send a cancellation request to <strong className="text-foreground">support@vanguardsignals.xyz</strong>. Include your account email address.</li>
           </ul>
 
           <h2 className="text-lg font-display font-semibold text-foreground">What Happens After Cancellation</h2>
@@ -33,7 +33,7 @@ export default function Cancellation() {
           <p>If you cancel during your 1-day free trial, you will not be charged at all. Your access will end when the trial period expires.</p>
 
           <h2 className="text-lg font-display font-semibold text-foreground">Contact</h2>
-          <p>For any questions about cancellation, contact us at <strong className="text-foreground">support@vanguard-signals.xyz</strong>. We typically respond within 24–48 hours.</p>
+          <p>For any questions about cancellation, contact us at <strong className="text-foreground">support@vanguardsignals.xyz</strong>. We typically respond within 24–48 hours.</p>
         </div>
       </div>
     </section>

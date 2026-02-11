@@ -22,7 +22,7 @@ export default function Contact() {
             <Mail className="text-primary shrink-0 mt-0.5" size={20} />
             <div>
               <h3 className="font-semibold text-sm mb-1">Email</h3>
-              <p className="text-sm text-muted-foreground">support@vanguard-signals.xyz</p>
+              <p className="text-sm text-muted-foreground"><p className="text-sm text-muted-foreground">support@vanguardsignals.xyz</p></p>
             </div>
           </div>
           <div className="bg-card border border-border rounded-xl p-5 flex items-start gap-3">
