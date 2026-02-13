@@ -20,7 +20,7 @@ export default function Refund() {
           <p>In cases of accidental duplicate charges, billing errors, or technical issues that prevented you from accessing the service, please contact our support team. We will review your case and may issue a refund at our discretion.</p>
 
           <h2 className="text-lg font-display font-semibold text-foreground">How to Request a Refund</h2>
-          <p>If you believe you are eligible for a refund, please contact us at <strong className="text-foreground">support@vanguardsignals.xyz</strong> with:</p>
+          <p>If you believe you are eligible for a refund, please contact us at <strong className="text-foreground">support@vanguard-signals.club</strong> with:</p>
           <ul className="list-disc pl-5 space-y-2">
             <li>Your account email address</li>
             <li>The date(s) of the charge(s) in question</li>
@@ -29,7 +29,7 @@ export default function Refund() {
           <p>We aim to respond to all refund requests within 24–48 hours.</p>
 
           <h2 className="text-lg font-display font-semibold text-foreground">Contact</h2>
-          <p>For any billing questions, reach out to <strong className="text-foreground">support@vanguardsignals.xyz</strong>.</p>
+          <p>For any billing questions, reach out to <strong className="text-foreground">support@vanguard-signals.club</strong>.</p>
         </div>
       </div>
     </section>

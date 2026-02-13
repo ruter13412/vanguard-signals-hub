@@ -37,7 +37,7 @@ export default function Terms() {
           <p>We reserve the right to modify these terms at any time. Changes will be posted on this page and take effect immediately. Continued use of the service constitutes acceptance of the updated terms.</p>
 
           <h2 className="text-lg font-display font-semibold text-foreground">9. Contact</h2>
-          <p>For questions about these terms, contact us at <strong className="text-foreground"><p>For questions about these terms, contact us at <strong className="text-foreground">support@vanguardsignals.xyz</strong>.</p></strong>.</p>
+          <p>For questions about these terms, contact us at <strong className="text-foreground">support@vanguard-signals.club</strong>.</p>
         </div>
       </div>
     </section>

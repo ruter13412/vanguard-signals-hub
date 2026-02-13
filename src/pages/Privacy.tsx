@@ -27,7 +27,7 @@ export default function Privacy() {
           <p>We implement reasonable security measures to protect your personal information. However, no method of transmission over the Internet is 100% secure.</p>
 
           <h2 className="text-lg font-display font-semibold text-foreground">6. Your Rights</h2>
-          <p>You have the right to access, correct, or delete your personal information. You may cancel your subscription at any time. To exercise these rights, contact us at <strong className="text-foreground">support@vanguardsignals.xyz</strong>.</p>
+          <p>You have the right to access, correct, or delete your personal information. You may cancel your subscription at any time. To exercise these rights, contact us at <strong className="text-foreground">support@vanguard-signals.club</strong>.</p>
 
           <h2 className="text-lg font-display font-semibold text-foreground">7. Cookies</h2>
           <p>We may use cookies and similar technologies to improve your browsing experience and analyze site usage.</p>
@@ -36,7 +36,7 @@ export default function Privacy() {
           <p>We may update this policy from time to time. Changes will be posted on this page with an updated revision date.</p>
 
           <h2 className="text-lg font-display font-semibold text-foreground">9. Contact</h2>
-          <p>For questions about this privacy policy, contact us at <strong className="text-foreground">support@vanguardsignals.xyz</strong>.</p>
+          <p>For questions about this privacy policy, contact us at <strong className="text-foreground">support@vanguard-signals.club</strong>.</p>
         </div>
       </div>
     </section>
