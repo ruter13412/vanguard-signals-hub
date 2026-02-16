@@ -8,7 +8,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const CHECKOUT_URL = "https://vanguard-signals.club/checkout";
+const CHECKOUT_URL = "https://vanguard-signals.space/checkout";
 
 const benefits = [
   { icon: Radio, title: "Daily Livestream", desc: "Live market analysis broadcast every trading day." },
