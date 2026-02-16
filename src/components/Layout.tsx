@@ -43,9 +43,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             ))}
             <a
               href={CHECKOUT_URL}
-              className="bg-gradient-gold text-primary-foreground px-5 py-2 rounded-lg text-sm font-semibold transition-transform hover:scale-105"
+              rel="noopener noreferrer"
+              className="bg-gradient-gold text-primary-foreground px-5 py-2 rounded-lg text-sm font-semibold transition-colors hover:opacity-90"
             >
-              Start Free Trial
+              Subscribe
             </a>
           </nav>
 
@@ -70,9 +71,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             ))}
             <a
               href={CHECKOUT_URL}
+              rel="noopener noreferrer"
               className="mt-2 block text-center bg-gradient-gold text-primary-foreground px-5 py-2.5 rounded-lg text-sm font-semibold"
             >
-              Start Free Trial
+              Subscribe
             </a>
           </div>
         )}
@@ -136,11 +138,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </div>
           </div>
 
-          <div className="mt-10 pt-6 border-t border-border">
+          <div className="mt-10 pt-6 border-t border-border space-y-2">
             <p className="text-xs text-muted-foreground text-center leading-relaxed">
-              © {new Date().getFullYear()} Vanguard Signals. All rights reserved. This is not financial advice. Trading involves risk.
-              <br />
-              Subscription: 1-day free trial, then $25/day with automatic daily renewal. Cancel anytime.
+              © {new Date().getFullYear()} Vanguard Signals. All rights reserved. Educational and informational content only — not financial advice.
+            </p>
+            <p className="text-xs text-muted-foreground text-center leading-relaxed">
+              Subscription: 1-day free trial, then $25/day with automatic daily renewal. Cancel anytime. See our{" "}
+              <Link to="/terms" className="underline hover:text-primary">Terms</Link>,{" "}
+              <Link to="/privacy" className="underline hover:text-primary">Privacy Policy</Link>, and{" "}
+              <Link to="/refund" className="underline hover:text-primary">Refund Policy</Link>.
             </p>
           </div>
         </div>
