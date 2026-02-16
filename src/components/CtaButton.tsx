@@ -1,4 +1,4 @@
-const CHECKOUT_URL = "https://vanguard-signals.club/checkout";
+const CHECKOUT_URL = "https://vanguard-signals.space/checkout";
 
 interface CtaButtonProps {
   label?: string;

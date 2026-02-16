@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-const CHECKOUT_URL = "https://vanguard-signals.club/checkout";
+const CHECKOUT_URL = "https://vanguard-signals.space/checkout";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -130,7 +130,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </div>
             <div>
               <h4 className="font-semibold text-sm mb-3 text-foreground">Contact</h4>
-              <p className="text-sm text-muted-foreground">support@vanguard-signals.club</p>
+              <p className="text-sm text-muted-foreground">support@vanguard-signals.space</p>
               <p className="text-sm text-muted-foreground mt-1">Response within 24–48 hours</p>
               <Link to="/contact" className="text-sm text-primary hover:underline mt-2 inline-block">
                 Contact Form →
