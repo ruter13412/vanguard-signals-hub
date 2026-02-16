@@ -11,7 +11,8 @@ export default function CtaButton({ label = "Start Free Trial", showMicrotext = 
     <div className={`flex flex-col items-center gap-3 ${className}`}>
       <a
         href={CHECKOUT_URL}
-        className="inline-block bg-gradient-gold text-primary-foreground px-8 py-3.5 rounded-lg text-base font-bold transition-all hover:scale-105 animate-pulse-gold"
+        rel="noopener noreferrer"
+        className="inline-block bg-gradient-gold text-primary-foreground px-8 py-3.5 rounded-lg text-base font-bold transition-colors hover:opacity-90"
       >
         {label}
       </a>

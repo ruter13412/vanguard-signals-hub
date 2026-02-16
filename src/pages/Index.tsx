@@ -63,21 +63,21 @@ export default function Index() {
         </div>
         <div className="relative container mx-auto px-4 pt-20 pb-24 sm:pt-28 sm:pb-32 lg:pt-36 lg:pb-40 text-center">
           <div className="flex justify-center gap-3 mb-6 flex-wrap">
-            {["Daily Live Broadcasts", "Instant Access", "Easy Cancellation"].map((b) => (
+            {["Educational Content", "Daily Livestreams", "Cancel Anytime"].map((b) => (
               <span key={b} className="text-xs font-medium px-3 py-1 rounded-full border border-gold bg-muted/60 text-primary">
                 {b}
               </span>
             ))}
           </div>
           <h1 className="font-display text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight max-w-4xl mx-auto">
-            Real-Time Market Analysis for Crypto & Stocks —{" "}
-            <span className="text-gradient-gold">Live, Every Day</span>
+            Daily Market Analysis for Crypto & Stocks —{" "}
+            <span className="text-gradient-gold">Educational Content</span>
           </h1>
           <p className="mt-5 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Join our daily livestreams for actionable insights, trading strategies, and real-time market updates.
+            Watch our daily livestreams for market commentary, educational insights, and trading strategy discussions. Not financial advice.
           </p>
           <div className="mt-10">
-            <CtaButton label="Start Free Trial (1st Day Free)" />
+            <CtaButton label="View Subscription Plans" />
           </div>
         </div>
       </section>
@@ -112,7 +112,7 @@ export default function Index() {
             ))}
           </div>
           <div className="mt-12 text-center">
-            <CtaButton label="Get Started — 1st Day Free" />
+            <CtaButton label="View Plans & Pricing" />
           </div>
         </div>
       </section>
@@ -151,9 +151,9 @@ export default function Index() {
       {/* Pricing */}
       <section className="section-padding" id="pricing">
         <div className="container mx-auto max-w-lg">
-          <h2 className="font-display text-2xl sm:text-3xl font-bold text-center mb-10">Daily Subscription</h2>
+          <h2 className="font-display text-2xl sm:text-3xl font-bold text-center mb-10">Subscription Details</h2>
           <div className="bg-card border-2 border-gold rounded-2xl p-8 text-center glow-gold">
-            <span className="text-sm font-medium text-primary uppercase tracking-wider">1-Day Free Trial</span>
+            <span className="text-sm font-medium text-primary uppercase tracking-wider">Includes 1-Day Free Trial</span>
             <div className="mt-4 mb-2">
               <span className="text-5xl font-display font-bold text-foreground">$25</span>
               <span className="text-muted-foreground text-lg">/day</span>
@@ -169,12 +169,13 @@ export default function Index() {
             </ul>
             <a
               href={CHECKOUT_URL}
-              className="block w-full bg-gradient-gold text-primary-foreground py-3.5 rounded-lg font-bold text-base transition-transform hover:scale-105"
+              rel="noopener noreferrer"
+              className="block w-full bg-gradient-gold text-primary-foreground py-3.5 rounded-lg font-bold text-base transition-colors hover:opacity-90"
             >
-              Go to Checkout
+              Subscribe Now
             </a>
             <p className="mt-4 text-xs text-muted-foreground leading-relaxed">
-              Automatic daily renewal after trial. You will be charged $25 per day until you cancel. Cancel anytime.
+              By subscribing you agree to our Terms of Service. Automatic daily renewal after the 1-day free trial. You will be charged $25 per day until you cancel. Cancel anytime — no commitment.
             </p>
           </div>
         </div>
@@ -198,9 +199,9 @@ export default function Index() {
       {/* Final CTA */}
       <section className="section-padding text-center">
         <div className="container mx-auto max-w-2xl">
-          <h2 className="font-display text-2xl sm:text-3xl font-bold mb-4">Ready to Get Started?</h2>
-          <p className="text-muted-foreground mb-8">Join Vanguard Signals today and access real-time market analysis.</p>
-          <CtaButton label="Start Your Free Trial" />
+          <h2 className="font-display text-2xl sm:text-3xl font-bold mb-4">Learn More About Our Service</h2>
+          <p className="text-muted-foreground mb-8">Explore Vanguard Signals — educational market analysis content delivered daily.</p>
+          <CtaButton label="View Subscription Details" />
         </div>
       </section>
     </>
